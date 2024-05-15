@@ -38,7 +38,7 @@ public class WorldClockServer {
         server.createContext("/city", new CityHandler());
         server.setExecutor(null);
         server.start();
-        System.out.println("Server started on port " + PORT);
+        System.out.println("Server started on port http://localhost:" + PORT);
     }
 
     // ****************************** RootHandler ****************************** //
